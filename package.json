@@ -1,0 +1,17 @@
+{
+  "name": "proyectoweb",
+  "version": "1.0.0",
+  "description": "Mi nombre es Emilio Ferraro y soy de Argentina.Este es un proyecto acerca de una maqueta Web hecha con CSS, Html y Bootstrap.Aplicando las practicas  de etiquetas semanticas, responsive design y Sass\r Esta orientado hacia una empresa que brinda servicios de informatica, venta de sus productos y consultoria en general.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build-css":  "node-sass --include-path scss scss/prueba.scss css/pruebacss.css", 
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.14"
+  }
+}
